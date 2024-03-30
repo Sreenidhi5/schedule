@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Calendar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .calendar, .tasks {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .tasks ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .tasks li {
+            padding: 8px;
+            background: #f9f9f9;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="calendar">
+        <h2>Calendar - April 2024</h2>
+        <table>
+            <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <!-- Add more weeks as needed -->
+        </table>
+    </div>
+    <div class="tasks">
+        <h2>Assigned Tasks</h2>
+        <ul>
+            <li>Task 1 - Assigned to Alice</li>
+            <li>Task 2 - Assigned to Bob</li>
+            <!-- Add more tasks as needed -->
+        </ul>
+    </div>
+</body>
+</html>
